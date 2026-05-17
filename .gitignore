@@ -1,0 +1,17 @@
+# --- Java Compiled Artifacts ---
+bin/
+*.class
+
+# --- Eclipse IDE Specifics ---
+.metadata/
+.classpath
+.project
+.settings/
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+# --- Local Data (Optional) ---
+# Un-comment the line below if the 'data/' folder contains local test files, databases, or logs
+# data/
