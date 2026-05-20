@@ -209,6 +209,19 @@ public class TripService {
         }
     }
 
+    // ── REQUEST TRIP (GUI VERSION) ───────────────────────────────────────────
+    // This allows the GUI to bypass the Scanner and pass data directly
+    public void requestTripFromGUI(String riderId, String pickup, String dropoff, double distance, boolean peak) {
+        String tripId = "T" + String.format("%03d", tripCounter++);
+        Trip trip = new Trip(tripId, "UNASSIGNED", riderId, pickup, dropoff, distance, peak);
+        tripQueue.offer(trip);
+    }
+    
+    // Quick getter so the GUI can see how many trips are waiting
+    public int getQueueSize() {
+        return tripQueue.size();
+    }
+
     // ── TRIP STATS ───────────────────────────────────────────────────────────
     public void showTripStats() {
         double totalRevenue = 0;

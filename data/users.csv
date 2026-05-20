@@ -1,22 +1,16 @@
 # Uber Management System - Data File
 # DRIVER: id,name,email,phone,licenseNo,rating,earnings,trips,vType,vMake,vModel,plate,year,status,warnings
 # RIDER: id,name,email,phone,rating,payment,address,totalSpent
-DRIVER,D001,[Member1 Name],member1@email.com,0411111111,LIC-NSW-001,4.9,3340.50,87,Car,Toyota,Camry,AAA001,2022,AVAILABLE,0
-DRIVER,D002,[Member2 Name],member2@email.com,0422222222,LIC-NSW-002,4.6,2970.00,74,SUV,Ford,Explorer,BBB002,2021,AVAILABLE,0
-DRIVER,D003,[Member3 Name],member3@email.com,0433333333,LIC-NSW-003,4.2,1950.75,51,Car,Honda,Civic,CCC003,2020,AVAILABLE,0
-DRIVER,D004,[Member4 Name],member4@email.com,0444444444,LIC-NSW-004,3.8,1200.00,33,Van,Toyota,HiAce,DDD004,2019,AVAILABLE,0
-DRIVER,D005,[Member5 Name],member5@email.com,0455555555,LIC-NSW-005,3.1,780.00,22,Car,Hyundai,i30,EEE005,2018,AVAILABLE,0
-DRIVER,D006,Alex Thompson,alex.t@ubermail.com,0466666666,LIC-NSW-006,4.8,4200.25,112,SUV,Kia,Sorento,FFF006,2023,AVAILABLE,0
-DRIVER,D007,Priya Sharma,priya.s@ubermail.com,0477777777,LIC-NSW-007,4.5,2750.00,69,Car,Mazda,CX-5,GGG007,2022,AVAILABLE,0
-DRIVER,D008,Marcus Williams,marcus.w@ubermail.com,0488888888,LIC-NSW-008,2.9,450.00,14,Car,Nissan,Pulsar,HHH008,2017,SUSPENDED,0
-DRIVER,D009,Lily Chen,lily.c@ubermail.com,0499999999,LIC-NSW-009,4.7,5310.00,143,Van,Mercedes,Sprinter,III009,2023,AVAILABLE,0
-DRIVER,D010,James OBrien,james.o@ubermail.com,0412000001,LIC-NSW-010,4.3,1890.50,48,Car,Toyota,Corolla,JJJ010,2020,AVAILABLE,0
-DRIVER,D011,Sangam Gurung,sangam@gmail.com,0411668000,LIC-TEST-001,5.0,50.00,0,Car,BMW,M2,TEST001,2025,AVAILABLE,0
-RIDER,R001,Sophie Anderson,sophie.a@gmail.com,0412100001,4.8,CREDIT_CARD,12 King Street Sydney,423.50
-RIDER,R002,Daniel Park,daniel.p@gmail.com,0412100002,4.6,PAYPAL,88 George Street Sydney,310.75
-RIDER,R003,Emma Brown,emma.b@gmail.com,0412100003,4.9,CREDIT_CARD,5 Pitt Street Sydney,892.20
-RIDER,R004,Liam Nguyen,liam.n@gmail.com,0412100004,4.2,CASH,22 Kent Street Sydney,145.00
-RIDER,R005,Olivia Martinez,olivia.m@gmail.com,0412100005,4.7,APPLE_PAY,99 York Street Sydney,567.30
-RIDER,R006,Noah Wilson,noah.w@gmail.com,0412100006,4.5,CREDIT_CARD,45 Market Street Sydney,234.80
-RIDER,R007,Ava Johnson,ava.j@gmail.com,0412100007,4.1,PAYPAL,7 Elizabeth Street Sydney,189.40
-RIDER,R008,Ethan Davis,ethan.d@gmail.com,0412100008,4.8,CREDIT_CARD,33 Castlereagh St Sydney,712.60
+DRIVER,D002,[Member2 Name],member2@email.com,422222222,LIC-NSW-002,4.6,2970.00,74,SUV,Ford,Explorer,BBB002,2021,AVAILABLE,0
+DRIVER,D003,[Member3 Name],member3@email.com,433333333,LIC-NSW-003,4.2,1950.75,51,Car,Honda,Civic,CCC003,2020,AVAILABLE,0
+DRIVER,D004,[Member4 Name],member4@email.com,444444444,LIC-NSW-004,3.8,1200.00,33,Van,Toyota,HiAce,DDD004,2019,AVAILABLE,0
+DRIVER,D005,[Member5 Name],member5@email.com,455555555,LIC-NSW-005,3.1,780.00,22,Car,Hyundai,i30,EEE005,2018,AVAILABLE,0
+DRIVER,D006,Alex Thompson,alex.t@ubermail.com,466666666,LIC-NSW-006,4.8,4200.25,112,SUV,Kia,Sorento,FFF006,2023,AVAILABLE,0
+DRIVER,D007,Priya Sharma,priya.s@ubermail.com,477777777,LIC-NSW-007,4.5,2750.00,69,Car,Mazda,CX-5,GGG007,2022,AVAILABLE,0
+DRIVER,D008,Narendra Williams,narendra.w@ubermail.com,488888888,LIC-NSW-008,2.9,450.00,14,Car,Nissan,Pulsar,HHH008,2017,SUSPENDED,0
+DRIVER,D009,Tiwari Chen,tiwari.c@ubermail.com,499999999,LIC-NSW-009,4.7,5310.00,143,Van,Mercedes,Sprinter,III009,2023,AVAILABLE,0
+DRIVER,D010,Prasad Obrien,prasad.o@ubermail.com,412000001,LIC-NSW-010,4.3,1890.50,48,Car,Toyota,Corolla,JJJ010,2020,AVAILABLE,0
+DRIVER,D011,Sangam Gurung,sangam@gmail.com,411668000,LIC-TEST-001,5.0,50.00,0,Car,BMW,M2,TEST001,2025,AVAILABLE,0
+DRIVER,D015,Narendra Prasad Tiwari,nare@gmail.com,0400000000,LIC-NEW,5.0,0.00,0,Car,Toyota,Camry,NEW123,2024,AVAILABLE,0
+RIDER,naren,null,null,null,5.0,CREDIT_CARD,No Address,0.00
+RIDER,R010,naren tiwari,naren1@gmail.com,6578904356,5.0,CREDIT_CARD,No Address,0.00
