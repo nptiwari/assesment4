@@ -12,5 +12,5 @@ DRIVER,D009,Tiwari Chen,tiwari.c@ubermail.com,499999999,LIC-NSW-009,4.7,5310.00,
 DRIVER,D010,Prasad Obrien,prasad.o@ubermail.com,412000001,LIC-NSW-010,4.3,1890.50,48,Car,Toyota,Corolla,JJJ010,2020,AVAILABLE,0
 DRIVER,D011,Sangam Gurung,sangam@gmail.com,411668000,LIC-TEST-001,5.0,50.00,0,Car,BMW,M2,TEST001,2025,AVAILABLE,0
 DRIVER,D015,Narendra Prasad Tiwari,nare@gmail.com,0400000000,LIC-NEW,5.0,0.00,0,Car,Toyota,Camry,NEW123,2024,AVAILABLE,0
-RIDER,naren,null,null,null,5.0,CREDIT_CARD,No Address,0.00
+DRIVER,naren,,,,,5.0,0.00,0,Car,,,,2024,AVAILABLE,0
 RIDER,R010,naren tiwari,naren1@gmail.com,6578904356,5.0,CREDIT_CARD,No Address,0.00

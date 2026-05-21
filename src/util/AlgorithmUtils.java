@@ -87,7 +87,7 @@ public class AlgorithmUtils {
         return i + 1;
     }
 
-    // 2. BINARY SEARCH by Driver ID (O(log n)) - *List MUST be sorted first!*
+    // 2. BINARY SEARCH by Driver ID (O(log n)) - 
     public static Driver binarySearchDriverById(ArrayList<Driver> list, String targetId) {
         int left = 0;
         int right = list.size() - 1;

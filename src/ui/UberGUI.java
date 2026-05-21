@@ -140,16 +140,16 @@ public class UberGUI extends JFrame {
         });
 
         // Action Listeners for CRUD
-        // btnDelete.addActionListener(e -> {
-        //     int row = driverTable.getSelectedRow();
-        //     if (row != -1) {
-        //         String id = (String) driverTableModel.getValueAt(row, 0);
-        //         drivers.removeIf(d -> d.getId().equals(id));
-        //         refreshDriverTable();
-        //     } else {
-        //         JOptionPane.showMessageDialog(this, "Select a driver first.");
-        //     }
-        // });
+        btnDelete.addActionListener(e -> {
+            int row = driverTable.getSelectedRow();
+            if (row != -1) {
+                String id = (String) driverTableModel.getValueAt(row, 0);
+                drivers.removeIf(d -> d.getId().equals(id));
+                refreshDriverTable();
+            } else {
+                JOptionPane.showMessageDialog(this, "Select a driver first.");
+            }
+        });
 
         // btnAdd.addActionListener(e -> {
         //     String id = JOptionPane.showInputDialog(this, "Enter New Driver ID (e.g., D015):");

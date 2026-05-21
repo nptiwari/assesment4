@@ -45,4 +45,16 @@ public class SystemTest {
         Driver notFound = AlgorithmUtils.binarySearchDriverById(drivers, "D999");
         assertNull(notFound);
     }
+
+    @Test
+    public void testBinarySearchNotFound() {
+        // 1. Sort the list first (requirement for binary search)
+        AlgorithmUtils.sortDriversById(drivers, 0, drivers.size() - 1);
+        
+        // 2. Search for an ID that we know does NOT exist
+        Driver result = AlgorithmUtils.binarySearchDriverById(drivers, "D999");
+        
+        // 3. Assert that the result is null 
+        assertNull(result, "Driver D999 should not exist and should return null");
+    }
 }
